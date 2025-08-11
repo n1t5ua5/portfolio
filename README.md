@@ -1,18 +1,10 @@
-## My Digital Portfolio
+# My Digital Portfolio
 
-This README file contains info about my portfolio & all its different pathways.
+## Introduction
 
-## Table of Contents
+This portfolio highlights various projects I've built primarily using: HTML5, CSS3, JavaScript, php, Python, Java, MySQL, SQL, MongoDB & more. Originally designed in 2022 & hosted via Pair; I've updated it ever since, including most recently in 2025 when I finally gave it a home here on GitHub + I added a link to YouTube in the footer which contains demos for all the projects listed below.
 
-- [Introduction](#introduction)
-- [Projects](#projects)
-- [Installation](#installation)
-
-# Introduction
-
-This portfolio highlights various projects I've built primarily using: HTML5, CSS3, JavaScript, php, Python, Java, MySQL, SQL, MongoDB & more. Originally designed in 2022, I've updated it ever since, including in 2025 when I added a YouTube link with demos for all the projects listed below: https://bit.ly/46SHD9w/.
-
-# Projects
+## Projects
 
 - Weebly (2011-2021): https://bit.ly/4lr5qRx
 - jQuery Game (2022): https://bit.ly/4mGsxIP
@@ -21,7 +13,7 @@ This portfolio highlights various projects I've built primarily using: HTML5, CS
 - Java Projects (2024): https://bit.ly/45bqVAP
 - Portfolio Code (2025): https://bit.ly/4oqy9bD
 
-# Installation
+## Installation
 
 Simply clone our repository:
 
@@ -29,6 +21,6 @@ Simply clone our repository:
 git clone https://github.com/n1t5ua5/portfolio.git
 ```
 
-# Usage, Contributions & Licensing
+## Usage, Contributions & Licensing
 
-Open the project files to view details & documentation for each project. Contributions are also welcome, please open an issue or submit a pull request. This project is licensed under the MIT License.
+Open the project files to view details & documentation for each project. Contributions are also welcome, please open an issue or submit a pull request. This project is licensed under the MIT License. URL: https://bit.ly/46SHD9w/
