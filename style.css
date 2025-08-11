@@ -1,0 +1,281 @@
+body,
+#translateButton {
+    font-family: 'Permanent Marker', cursive;
+}
+
+h1.outlined,
+h4.outlined,
+h1,
+h4 {
+    text-align: center;
+    color: #009e60;
+    margin-top: 20px;
+    font-size: 29px;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+    text-decoration-color: #000;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+h4,
+h4.outlined {
+    font-size: 13.25px;
+    padding-bottom: 5px;
+    color: #009e60 !important;
+}
+
+body {
+    background-color: #e3e3e3;
+}
+
+body.dark-mode {
+    background-color: #000;
+}
+
+nav {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+nav a,
+nav a.green-button,
+nav a:not(#dayNightToggle) {
+    color: white !important;
+    font-style: italic;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 75px;
+    transition: opacity 0.3s;
+}
+
+nav a.green-button {
+    background: #009e60 !important;
+    margin-bottom: 2.5px;
+    padding: 10px;
+    margin: 0 7.5px;
+}
+
+nav a:hover {
+    opacity: 0.7;
+}
+
+nav a:not(#dayNightToggle) {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration-color: #000;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    color: #fff !important;
+}
+
+.main {
+    width: 725px;
+    margin: auto;
+    border-radius: 75px;
+    height: 400px;
+}
+
+.table {
+    margin: auto;
+    box-shadow: 0 0 8px black;
+    text-align: center;
+    border-radius: 75px;
+    padding: 30px 0;
+    background: url(images/flowerHead.png) center 100% no-repeat;
+    background-size: cover;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+body.desktop .row {
+    justify-content: space-between;
+}
+
+body.desktop .icon.mongodb,
+body.desktop .icon.github {
+    margin-right: 200px;
+}
+
+.icon {
+    width: 20%;
+    font-style: italic;
+    position: relative;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon a {
+    display: block;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration-color: #000;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    color: #fff !important;
+}
+
+.icon:hover,
+.icon a:hover {
+    transform: scale(1.2);
+}
+
+body.day-mode {
+    background-color: #fff;
+}
+
+body.day-mode nav,
+body.day-mode nav a {
+    background-color: #fff;
+}
+
+body.day-mode .main {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+body.day-mode .table {
+    border-radius: 75px;
+    padding: 1px 0;
+    border: none;
+}
+
+footer {
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content a {
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration-color: #000;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+    color: #fff !important;
+}
+
+#translateButton {
+    display: inline-block;
+    padding: 12.5px;
+    font-size: 15px;
+    line-height: 1;
+    font-style: italic;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 75px;
+    color: white !important;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: #009e60;
+    transition: opacity 0.3s;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+    text-decoration-color: #000;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 2px;
+}
+
+#translateButton:hover {
+    opacity: 0.7;
+}
+
+.footer-icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+#dayNightToggle {
+    color: inherit !important;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#dayNightToggle:hover {
+    padding-top: 5px;
+    transform: scale(1.2);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+#youTubeToggle {
+    color: inherit !important;
+    display: inline-block;
+    margin-top: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#dayNightToggle:hover,
+#youTubeToggle:hover {
+    padding-top: 5px;
+    transform: scale(1.2);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+}
+
+@media (max-width: 650px) {
+    .main {
+        width: 320px;
+        height: auto;
+    }
+
+    .main .table {
+        border: 1px solid #fff;
+        background: url(images/mobileBackdrop.png) center bottom no-repeat !important;
+        background-size: cover !important;
+    }
+
+    body.day-mode nav,
+    body.day-mode nav a {
+        background: #fff;
+    }
+
+    body.day-mode .main .table {
+        border: 1px solid black;
+    }
+
+    body.dark-mode .main .table {
+        border: 1px solid white;
+    }
+
+    .main .row {
+        display: block;
+        width: 100%;
+    }
+
+    .main .icon {
+        margin: 50px auto 10px;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    #footer {
+        padding-top: 5px;
+    }
+
+    #dayNightToggle {
+        padding-bottom: 10px;
+        display: inline-block;
+        margin-top: 5px;
+    }
+
+    #dayNightToggle:hover {
+        padding-bottom: 10px;
+    }
+
+    #youtubeToggle {
+        margin-left: 10px;
+        display: inline-block;
+    }
+}
