@@ -2,7 +2,7 @@
 
 This README file contains info about my portfolio & all its different pathways.
 
-# Table of Contents
+## Table of Contents
 
 - [Introduction](#introduction)
 - [Projects](#projects)
