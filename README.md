@@ -23,4 +23,4 @@ git clone https://github.com/n1t5ua5/portfolio.git
 
 ## Usage, Contributions & Licensing
 
-Open the project files to view details & documentation for each project. Contributions are also welcome, please open an issue or submit a pull request. This project is licensed under the MIT License. URL: https://bit.ly/46SHD9w/
+Open the project files to view details & documentation for each project. Contributions are also welcome, please open an issue or submit a pull request. This project is licensed under the MIT License. URL: https://bit.ly/46SHD9w.
